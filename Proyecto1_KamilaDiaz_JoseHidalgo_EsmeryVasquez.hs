@@ -24,3 +24,4 @@ combinar :: Maybe Int -> Maybe Int -> (Int -> Int -> Maybe Int) -> Maybe Int
 combinar Nothing _ _ = Nothing
 combinar _ Nothing _ = Nothing
 combinar (Just x) (Just y) f = f x y
+
